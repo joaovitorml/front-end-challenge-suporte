@@ -1,3 +1,12 @@
+.body {
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: #2B222F;
+    width: min-content;
+    height: min-content;
+
+}
+
 header {
     background-color: black;
     top: 0px;
@@ -12,48 +21,61 @@ header img {
     margin-left: 10px;
 }
 
-img#img_menu {
+img#img-menu {
     position: relative;
     top: -10px;
 }
 
-img#img_dealer {
+img#img-dealer {
     position: relative;
     top: -5px;
 }
 
-img#img_eclipse2 {
+img#img-eclipse2 {
     position: relative;
     top: 5px;
     right: -10px;
 }
 
-img#img_eclipse1 {
+img#img-eclipse1 {
     position: relative;
     top: 5px;
 }
 
-img#img_dealer {
+img#img-dealer {
     position: relative;
 }
 
-img#img_phone {
-    position: absolute;
-    top: 25px;
-    left: 186px;
-    width: 14px;
-    height: 13px;
+img#img-phone {
+    position: relative;
 }
 
-img#img_whatsapp {
-    position: absolute;
-    top: 23px;
-    left: 224px;
-    width: 18px;
-    height: 18px;
+img#img-whatsapp {
+    position: relative;
 }
 
-img#img_fiat {
+img#img-fiat {
     position: relative;
     top: -5px;
+}
+
+.body-menu {
+    background-color:#433B47;
+}
+
+.list-menu li {
+    color: white;
+    padding: 10px;
+}
+
+.final {
+    padding: 30px;
+}
+
+.btn-modelos {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #FF1430;
+    text-align: center;
+    font: normal normal bold 14px/22px Futura PT;
+    color: white;
 }
