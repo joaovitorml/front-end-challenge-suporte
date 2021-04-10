@@ -1,0 +1,59 @@
+header {
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    width: 320px;
+    height: 60px;
+}
+
+header img {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+img#img_menu {
+    position: relative;
+    top: -10px;
+}
+
+img#img_dealer {
+    position: relative;
+    top: -5px;
+}
+
+img#img_eclipse2 {
+    position: relative;
+    top: 5px;
+    right: -10px;
+}
+
+img#img_eclipse1 {
+    position: relative;
+    top: 5px;
+}
+
+img#img_dealer {
+    position: relative;
+}
+
+img#img_phone {
+    position: absolute;
+    top: 25px;
+    left: 186px;
+    width: 14px;
+    height: 13px;
+}
+
+img#img_whatsapp {
+    position: absolute;
+    top: 23px;
+    left: 224px;
+    width: 18px;
+    height: 18px;
+}
+
+img#img_fiat {
+    position: relative;
+    top: -5px;
+}
