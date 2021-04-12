@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible'>
+<head lang="pt-br">
+    <meta charset='UTF-8'/>
     <title>Interface</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='interface.css'>
     <script src='interface.js'></script>
 </head>
 <body>
-    <div class="body">
+    <div class="bodyclass">
         <header class="cabecalho">
-            <img src="img/menu.png" id="img-menu">
+            <img src="img/menu.png" id="img-menu" onclick="openMenu()">
             <img src="img/dealer.png" id="img-dealer">
             <img src="img/eclipse2.png" id="img-eclipse2">
             <img src="img/telefone.png" id="img-phone">
@@ -19,22 +17,21 @@
             <img src="img/wpp.png" id="img-whatsapp">
             <img src="img/fiat.png" id="img-fiat">
         </header>
-        <div class="body-menu">
-            <ul class="list-menu">
-                <li>Institucional
-                    <ul>
+        <div class="bodyclass-menu">
+            <ul class="list-menu" type="none">
+                <li class="menu-item" id="institucional" onclick="ativaDesativaInstitucional()">Institucional</li>
+                    <ul type="none" id="institucional-list">
                         <li>Quem Somos</li>
                         <li>Fale Conosco</li>
                         <li>Endereços</li>
                     </ul>
-                </li>
-                <li>Novos</li>
-                <li>Ofertas</li>
-                <li>Seminovos</li>
-                <li>Consórcio <span style="padding: 4px; margin-left: 10px; background-color: #FF1430;">Novo</span></li>
-                <li>Vendas Direta</li>
-                <li>Lifestyle</li>
-                <li>Pós-vendas</li>
+                <li class="menu-item">Novos</li>
+                <li class="menu-item">Ofertas</li>
+                <li class="menu-item">Seminovos</li>
+                <li class="menu-item">Consórcio <span style="padding: 4px; margin-left: 10px; background-color: #FF1430;">Novo</span></li>
+                <li class="menu-item">Vendas Direta</li>
+                <li class="menu-item">Lifestyle</li>
+                <li class="menu-item">Pós-vendas</li>
             </ul>
         </div>
         <div class="final">

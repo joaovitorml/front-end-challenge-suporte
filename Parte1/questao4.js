@@ -1,0 +1,1 @@
+$('.page').append('<div id="myModal1"><div class="modal-content"><div class="modal-header"></div><div class="modal-body"><p>Some text in the modal.</p><blockquote class="imgur-embed-pub" lang="en" data-id="a/OlaHB"  ><a href="//imgur.com/a/OlaHB">Sou Palmeiras</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></div></div></div>');
